@@ -1,0 +1,54 @@
+.text-center {
+  font-size: 1.2rem;
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Assign Heading */
+.assingHeadine {
+  display: flex;
+  justify-content: center;
+}
+
+.reviewContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+  align-items: center;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.reviewer {
+  width: 90%;
+}
+
+.submitButtons {
+  margin-left: 36%;
+  width: 30%;
+  margin-top: 10px;
+  padding: 10px;
+}
+/* Submit buttons  */
+.submitButtons button {
+  background-color: #afcfff;
+  width: 10vw;
+  height: 25px;
+  border: 1px solid darkgreen;
+  border-radius: 13px;
+}
+
+.submitButtons2 {
+  width: 10vw;
+}
+
+.btn {
+  background-color: rgb(0, 140, 255);
+}
+#addemp {
+  background-color: lightyellow;
+}

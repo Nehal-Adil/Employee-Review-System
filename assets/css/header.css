@@ -1,0 +1,71 @@
+.navBar {
+  background-color: #3f38ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nameOfApp a {
+  font-size: 45px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.nameOfApp img {
+  height: 65px;
+  width: 80px;
+  margin-left: 30px;
+
+  margin-top: -30px;
+}
+
+.nameOfUser {
+  font-size: 20px;
+  margin-left: 2px;
+  margin-right: 8px;
+  margin-top: 8px;
+  color: white;
+  font-weight: bold;
+}
+.nameOfUser img {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin-right: 8px;
+}
+
+/* Thesse styling are for logOut, button which is present on the navBar */
+.logOut a {
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.noUser ul {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.noUser li {
+  list-style: none;
+  font-size: 19px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.noUser li a {
+  text-decoration: none;
+  color: white;
+}
+.logOut small {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.logOut small:hover {
+  font-weight: 700;
+}

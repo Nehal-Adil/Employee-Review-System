@@ -1,0 +1,51 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5rem auto;
+  height: 50vh;
+  width: 40vw;
+}
+
+.formInput {
+  background-color: #c3d4ff;
+  height: 100%;
+  width: 100%;
+}
+/* Form heading */
+.formInput h1 {
+  margin-left: 30%;
+  color: black;
+}
+
+.formInput form {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+form input {
+  width: 75%;
+  height: 35px;
+  margin: 10px 0px;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.submitButtons {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.submitButtons button {
+  width: 100%;
+  border-radius: 30px;
+  background-color: #42e9ff;
+}
+
+.extraStuff {
+  margin-top: 20px;
+}
